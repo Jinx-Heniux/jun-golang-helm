@@ -2,12 +2,9 @@ package chartutil
 
 import "testing"
 
-func TestCreateFromTest2(t *testing.T) {
-	srcdir := "/home/zhs2si/projects/go/jun-golang-helm/testdata/sourcecharts/boilerplate-based-on-utility-toolkit"
+func TestCreateFromTest1(t *testing.T) {
 
-	destdir := "/home/zhs2si/projects/go/jun-golang-helm/testdata/outputs"
-
-	if err := CreateFromTest2(nil, destdir, srcdir); err != nil {
+	if err := CreateFromTest1(); err != nil {
 		t.Fatal(err)
 	}
 }
