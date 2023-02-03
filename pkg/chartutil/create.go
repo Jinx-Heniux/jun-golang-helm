@@ -5,7 +5,7 @@ import (
 	"helm.sh/helm/v3/pkg/chartutil"
 )
 
-func CreateFromTest1() error {
+func CreateChartFrom() error {
 
 	cf := &chart.Metadata{
 		APIVersion: chart.APIVersionV1,

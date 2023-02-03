@@ -2,9 +2,9 @@ package chartutil
 
 import "testing"
 
-func TestCreateFromTest1(t *testing.T) {
+func TestCreateChartFrom(t *testing.T) {
 
-	if err := CreateFromTest1(); err != nil {
+	if err := CreateChartFrom(); err != nil {
 		t.Fatal(err)
 	}
 }

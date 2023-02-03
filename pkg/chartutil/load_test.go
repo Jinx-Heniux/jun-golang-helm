@@ -1,10 +1,16 @@
 package chartutil
 
-import "testing"
+import (
+	"testing"
+)
 
-func TestLoadChartTest1(t *testing.T) {
+func TestLoadChartFromFS(t *testing.T) {
 
-	if err := LoadChartTest1(); err != nil {
+	src := "/home/zhs2si/projects/go/jun-golang-helm/testdata/sourcecharts/bci-umbrella-chart"
+
+	schart, err := LoadChartFromFS(src)
+	if err != nil {
 		t.Fatal(err)
 	}
+	_ = schart
 }

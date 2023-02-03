@@ -4,7 +4,7 @@ import (
 	"helm.sh/helm/v3/pkg/action"
 )
 
-func WriteDependenciesTest1() error {
+func WriteDependencies() error {
 	actionConfig := new(action.Configuration)
 
 	// os.Stdout
